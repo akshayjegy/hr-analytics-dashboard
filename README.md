@@ -7,7 +7,7 @@ Analyzed IBM HR dataset of 1,470 employees to identify key drivers of employee a
 HR teams need to understand why employees leave to reduce hiring costs and retain talent. This project answers: Which departments, age groups, and work patterns drive the highest attrition?
 
 ## Tools & Technologies
-`Python` `Pandas` `SQLite` `SQL` `Matplotlib` `Seaborn` `Jupyter Notebook`
+`Python` `Pandas` `SQLite` `SQL` `Matplotlib` `Seaborn` `Power BI` `Jupyter Notebook`
 
 ## Key Findings
 - Overall attrition rate: **16.1%** (237 out of 1,470 employees)
@@ -18,6 +18,11 @@ HR teams need to understand why employees leave to reduce hiring costs and retai
 
 ## Visualization
 ![HR Attrition Analysis](dashboard/hr_attrition_analysis.png)
+
+## Interactive Power BI Dashboard
+![Power BI Dashboard](dashboard/hr_powerbi_dashboard.png)
+
+Built an interactive Power BI dashboard with KPI cards, department/age group breakdowns, and a slicer for filtering by travel frequency. The `.pbix` file is included in the `dashboard/` folder for hands-on exploration.
 
 ## Methodology
 1. **Extract** — Loaded IBM HR dataset (1,470 employees, 10 features)
@@ -35,6 +40,6 @@ HR teams need to understand why employees leave to reduce hiring costs and retai
 IBM HR Analytics Employee Attrition Dataset (Kaggle)
 
 ## Next Steps
-- Build interactive Power BI dashboard with department slicers
 - Add logistic regression model to predict attrition probability
 - Expand dataset with salary and performance review data
+- Add drill-through pages for department-level deep dives
